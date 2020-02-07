@@ -1,4 +1,4 @@
-package com.heremaps;
+package com.heremaps.map;
 
 import android.app.Activity;
 
@@ -11,9 +11,9 @@ import com.here.android.mpa.common.ApplicationContext;
 
 import java.util.Map;
 
-public class HeremapsMainManager extends SimpleViewManager {
+public class HeremapsMapViewManager extends SimpleViewManager {
 
-  private static final String REACT_CLASS = "HeremapsMain";
+  private static final String REACT_CLASS = "HeremapsMapView";
 
   @Override
   public String getName() {
@@ -21,8 +21,8 @@ public class HeremapsMainManager extends SimpleViewManager {
   }
 
   @Override
-  protected HeremapsMain createViewInstance(ThemedReactContext context) {
-    return new HeremapsMain(context);
+  protected HeremapsMapView createViewInstance(ThemedReactContext context) {
+    return new HeremapsMapView(context);
   }
 
 }

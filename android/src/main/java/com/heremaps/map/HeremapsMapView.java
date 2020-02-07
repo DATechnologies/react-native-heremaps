@@ -1,4 +1,4 @@
-package com.heremaps;
+package com.heremaps.map;
 
 import android.content.Context;
 import android.graphics.PointF;
@@ -17,16 +17,15 @@ import com.here.android.mpa.mapping.MapMarker;
 import com.here.android.mpa.mapping.MapObject;
 import com.here.android.mpa.mapping.MapView;
 import com.here.android.mpa.common.Image;
-import com.scanovatormobile.R;
 import com.here.android.mpa.common.ApplicationContext;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HeremapsMain extends MapView {
+public class HeremapsMapView extends MapView {
 
-  private static final String TAG = BasicMapActivity.class.getSimpleName();
+  private static final String TAG = HeremapsMapView.class.getSimpleName();
 
   private static final String MAP_TYPE_NORMAL = "normal";
   private static final String MAP_TYPE_SATELLITE = "satellite";
@@ -42,7 +41,7 @@ public class HeremapsMain extends MapView {
 
   ArrayList<MapMarker> markers;
 
-  public HeremapsMain(Context context) {
+  public HeremapsMapView(Context context) {
     super(context);
 
     ApplicationContext newContext = new ApplicationContext(context);
