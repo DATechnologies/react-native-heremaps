@@ -34,6 +34,7 @@ android/.gradle/
 android/.idea/
 android/android.iml
 android/gradle/
+android/build
 android/gradlew
 android/gradlew.bat
 android/local.properties
