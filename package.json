@@ -1,23 +1,23 @@
 {
   "name": "react-native-heremaps-bridge",
   "title": "React Native Heremaps",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A react native heremaps android and iOS bridge",
-  "main": "index.js",
+  "main": "./typescript/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-heremaps.git",
-    "baseUrl": "https://github.com/github_account/react-native-heremaps"
+    "url": "https://github.com/DATechnologies/react-native-heremaps",
+    "baseUrl": "https://github.com/DATechnologies/react-native-heremaps"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Joseph Hu",
+    "email": "zhhjoseph@gmail.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
