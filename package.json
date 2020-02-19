@@ -1,7 +1,7 @@
 {
   "name": "react-native-heremaps-bridge",
   "title": "React Native Heremaps",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A react native heremaps android and iOS bridge",
   "main": "./typescript/index.ts",
   "scripts": {
