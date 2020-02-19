@@ -1,8 +1,8 @@
 {
   "name": "react-native-heremaps-bridge",
   "title": "React Native Heremaps",
-  "version": "0.0.1",
-  "description": "TODO",
+  "version": "0.0.2",
+  "description": "A react native heremaps android and iOS bridge",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
