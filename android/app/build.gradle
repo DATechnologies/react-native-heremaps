@@ -76,6 +76,7 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
+    implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation(name:'HERE-sdk', ext:'aar')
 }
 
