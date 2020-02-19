@@ -1,5 +1,7 @@
 # react-native-heremaps
 
+A HereMaps Android and iOS Bridge by RapptrLabs. Currently under construction.
+
 ## Getting started
 
 `$ npm install react-native-heremaps --save`
