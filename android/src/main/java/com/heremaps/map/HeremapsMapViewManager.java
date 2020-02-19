@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class HeremapsMapViewManager extends SimpleViewManager {
 
-  private static final String REACT_CLASS = "HeremapsMapView";
+  private static final String REACT_CLASS = "HereMapsAndroidMapView";
 
   @Override
   public String getName() {

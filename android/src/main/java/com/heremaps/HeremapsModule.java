@@ -16,7 +16,7 @@ public class HeremapsModule extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "Heremaps";
+        return "HereMaps";
     }
 
     @ReactMethod
